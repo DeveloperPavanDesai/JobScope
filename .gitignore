@@ -1,64 +1,35 @@
-# =========================
-# Python
-# =========================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
 
-# Virtual Environment
 venv/
 env/
 .venv/
 
-# Environment Variables
 .env
 
-# =========================
-# FastAPI / Uvicorn
-# =========================
 *.log
 
-# =========================
-# PostgreSQL / DB
-# =========================
 *.sqlite3
 
-# =========================
-# IDEs
-# =========================
 .vscode/
 .idea/
 
-# =========================
-# macOS
-# =========================
 .DS_Store
 
-# =========================
-# Node / Extension tooling
-# =========================
 node_modules/
 dist/
 build/
 
-# =========================
-# Chrome Extension
-# =========================
 *.pem
 extension.zip
 
-# =========================
-# Testing / Coverage
-# =========================
 .coverage
 htmlcov/
 .pytest_cache/
 
-# =========================
-# Misc
-# =========================
 *.swp
 *.swo
 *.tmp
