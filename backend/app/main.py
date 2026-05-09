@@ -1,8 +1,10 @@
-from fastapi import FastAPI 
+from fastapi import FastAPI
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.db.connection import engine, Base
+from app.models.platform import Platform  # noqa: F401
+from app.models.job import Job  # noqa: F401
 from app.routes.jobs import router as job_router
 
 Base.metadata.create_all(bind=engine)
